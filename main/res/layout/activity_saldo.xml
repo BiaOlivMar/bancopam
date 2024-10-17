@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#4550A1D5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Saldo">
+
+    <androidx.appcompat.widget.Toolbar android:id="@+id/tituloo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Tela de Saldo"
+        app:titleTextColor="@color/white"
+        android:background="#FF50A1D5" />  
+
+
+
+    <TextView android:id="@+id/saldoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo disponível:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/tituloo"/>
+
+    <TextView android:id="@+id/valorr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 1500,00"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/saldoo"/>
+
+
+
+
+</RelativeLayout>
